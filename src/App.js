@@ -14,132 +14,144 @@ function App() {
         <div id="about" className="section">
           <h2>About</h2>
           <p>
-            My name is Melissa Peters. With over a decade of experience in software development, I specialize in creating robust full-stack
-            systems. I am passionate about user experience, dedicated to designing applications that are intuitive,
-            responsive, and user-friendly. I thrive on tackling complex challenges and take pride in resolving issues
-            that impact both clients and developers. Collaborative by nature, I work closely with designers and
-            product managers to develop features that are both useful and impactful, ensuring that every solution
-            addresses real needs and drives meaningful results. I care greatly about the software I create, in both user interface design and coding style.
-            I have experience in multiple web technologies and Java-based desktop applications. I am a fast learner and always willing to learn new technologies.
-            I enjoy helping others with coding problems and find it easy to understand other people's code.
-            My working experience includes agile and non-agile teams with pairing, mobbing and TDD. 
-            I have a passion for CI/CD and improving developer experience through tools, scripts and documentation.
+            Staff Software Engineer with 10+ years of experience building intuitive full-stack systems and internal platforms. Driven by
+            a passion for eliminating developer and operational friction—whether it's automating a slow, manual process or refining a
+            complex interface, I thrive on listening to team pain points and turning repetitive frustration into fast, elegant workflows.
+            Deep expertise in Ruby on Rails, React, and GraphQL, with a track record of scaling developer experience and cross-
+            functional productivity.
           </p>
         </div>
         <div id="experience" className="section">
           <h2>Experience</h2>
           <div className="sub-section">
             <h4>
-              Software Developer{" "}
-              <div className="sub-heading">Mar 2018 - present (6 years)</div>
+              Staff Software Engineer
+              <div className="sub-heading">Aug 2025 – Present</div>
               <div className="sub-heading">
-                Nulogy Corporation | Toronto, Canada
+                ODAIA Intelligence | Toronto, Canada
               </div>
             </h4>
 
             <ul>
               <li>
-                Collaborated with project managers to select ambitious but
-                realistic coding milestones on pre-release software project
-                development.
+                Led the architecture and development of an internal platform powering 100% of company-wide deliveries and client
+                messaging, processing 1.5M+ records weekly and empowering non-technical teams to control output independently.
               </li>
               <li>
-                Implemented automated build and continuous software integration,
-                monitored and improved performance continuously.
+                Improved an internal configuration tool by integrating a JSON editor with syntax highlighting, predefined dropdowns,
+                and format guidance—reducing configuration errors.
               </li>
               <li>
-                Teamed with the infrastructure team to move a product from
-                managed hosting to self-hosted on AWS, doing IAC in terraform.
+                Proposed and led migration of hardcoded business logic to configuration files, enabling the implementations team to
+                onboard clients independently without engineering support.
               </li>
               <li>
-                Participated in software field testing to verify the performance
-                of developed projects.
+                Implemented performance reporting into data pipelines, enabling engineers to identify bottlenecks and measure
+                optimization impact in real-time.
               </li>
               <li>
-                Updated old code bases to modern development standards,
-                improving functionality.
+                Built automated retry and deduplication processes, reducing manual engineering intervention for common delivery
+                issues by 90%.
               </li>
               <li>
-                Collaborated on stages of systems development lifecycle from
-                requirement gathering to production releases
-              </li>
-              <li>
-                Documented technical workflows and knowledge to educate newly
-                hired employees.
-              </li>
-              <li>
-                Troubleshot and resolved performance issues for databases and
-                software.
-              </li>
-              <li>
-                 Expert: Acted as a key advisor to the design team by evaluating and 
-                 validating thefeasibility of front-end designs, ensuring that proposed designs were practical and aligned with technicalconstraints and capabilities
-               </li>
-               <li>
-                  Participated in the on-call rotation, leading incident responses to ensure quick recoveries and performing post-mortem analyses to prevent future issues.
-               </li> 
-               <li>
-                  Facilitated important agile team meetings on a rotational basis, contributing to effective team collaboration and ensuring alignment with agile methodologies.
-               </li>
-               <li>
-                  Applied test-driven development practices (TDD), including end-to-end tests, to ensure high code quality and reliable software functionality.
-               </li>
-               <li>
-                  Initiated and facilitated cross team collaboration
-                </li>     
-            </ul>
-            <span>       
-              <b>Technology stack:</b> Ruby on Rails · React.js · GraphQL · PostgreSQL · JavaScript · Amazon Web Services (AWS) · Typescript
-            </span>       
-          </div>
-          <div className="sub-section">
-            <h4>
-              Software Product Developer{" "}
-              <div className="sub-heading">Jan 2013 - Dec 2017 (5 years)</div>{" "}
-              <div className="sub-heading">
-                GEW Technologies l Pretoria, South Africa
-              </div>
-            </h4>
-
-            <div>
-              <div className="title">
-                Senior Software Product Developer
-                <span className="sub-heading"> (01/2017 - 12/2017)</span>
-              </div>
-              <div className="title">
-                Software Product Developer
-                <span className="sub-heading"> (01/2015 - 12/2016)</span>
-              </div>
-              <div className="title">
-                Junior Software Product Developer
-                <span className="sub-heading"> (01/2013 - 12/2014)</span>
-              </div>
-            </div>
-            <ul>
-              <li>
-                Managed a complete system’s development, setup and deployment in
-                foreign country- outside Africa.
-              </li>
-              <li>
-                Modified existing software to improve performance and adapt to
-                new hardware.
-              </li>
-              <li>
-                Debugged and modified software components developed Java
-                products in technical programming environment. - Assisted in
-                systems engineering function to facilitate product software
-                combinations for user-required functions.
-              </li>
-              <li>
-                Designed, developed and documented Java programs and modules
-                according to engineering detail designs. Developed modular
-                reusable product code in line with existing design practices
-                with Agile focus.
+                Implemented pre-delivery pipeline runs for high-risk, bi-weekly deployments to detect issues proactively.
               </li>
             </ul>
             <span>
-              <b>Awards:</b> Excellence in software product development 2014 and
-              2016
+              <b>Technology Stack:</b> Python, React, TypeScript, AWS, Dagster, Snowflake
+            </span>
+          </div>
+          <div className="sub-section">
+            <h4>
+              Software Engineer
+              <div className="sub-heading">Mar 2018 – Jul 2025</div>
+              <div className="sub-heading">
+                Nulogy | Toronto, Canada
+              </div>
+            </h4>
+
+            <ul>
+              <li>
+                Led technical architecture for cross-functional initiative, translating stakeholder requirements into scalable solutions
+                that aligned engineering delivery with business priorities.
+              </li>
+              <li>
+                Spearheaded migration of critical application from PaaS to IaaS, coordinating with SRE to ensure zero-downtime
+                deployment and improved scalability.
+              </li>
+              <li>
+                Designed and optimized CI/CD pipeline, reducing deployment time by 50% and improving build reliability for the
+                engineering team.
+              </li>
+              <li>
+                Led the migration of an internal JavaScript library to an external npm package, transitioning the codebase to modern
+                React best practices and improving maintainability across teams.
+              </li>
+              <li>
+                Partnered with the design team to validate front-end feasibility and performance of UI proposals, ensuring alignment
+                between design vision and engineering constraints.
+              </li>
+              <li>
+                Optimized application and build pipelines, reducing page load times and improving developer build speed.
+              </li>
+              <li>
+                Led on-call incident response and post-mortems, identifying root causes and implementing fixes that reduced incident
+                recurrence.
+              </li>
+              <li>
+                Strategic Problem Solving: Solved complex technical challenges through structured analysis, hands-on execution, and
+                close cross-team collaboration.
+              </li>
+            </ul>
+            <span>
+              <b>Technology Stack:</b> JavaScript, TypeScript, React, GraphQL, Ruby on Rails, AWS
+            </span>
+          </div>
+          <div className="sub-section">
+            <h4>
+              Senior Software Product Developer
+              <div className="sub-heading">Jan 2013 – Dec 2017</div>{" "}
+              <div className="sub-heading">
+                GEW Technologies | Pretoria, South Africa
+              </div>
+            </h4>
+
+            <ul>
+              <li>
+                Designed system architecture and feature specifications based on B2B client requirements, translating stakeholder
+                needs into technical specs.
+              </li>
+              <li>
+                Built Java desktop applications using a structured framework with Oracle database integration for enterprise clients.
+              </li>
+              <li>
+                Led development of a high-traffic live view feature processing 1K records per minute with sub-second latency.
+              </li>
+              <li>
+                Demonstrated product on-site for customers and collaborated with hardware engineers to ensure seamless software-
+                hardware integration.
+              </li>
+            </ul>
+            <span>
+              <b>Technology Stack:</b> Java Swing Desktop, Oracle, Git, PHP, MySQL
+            </span>
+          </div>
+          <div className="sub-section">
+            <h4>
+              Internship
+              <div className="sub-heading">May 2012 – Aug 2012</div>{" "}
+              <div className="sub-heading">
+                Netsys | Pretoria, South Africa
+              </div>
+            </h4>
+
+            <ul>
+              <li>
+                Fixed bugs and improved code quality in a weather forecasting application during the internship.
+              </li>
+            </ul>
+            <span>
+              <b>Technology Stack:</b> Flex
             </span>
           </div>
           <h5>
@@ -157,18 +169,8 @@ function App() {
           <h2>Education</h2>
           <div className="sub-section">
             <h4>
-              Honors (Computer Science), BSc Hons (Computer Science)
-              <div className="sub-heading">Jan 2012 - Dec 2012</div>{" "}
-              <div className="sub-heading">
-                University of Pretoria | Pretoria, South Africa
-              </div>
-            </h4>
-          </div>
-
-          <div className="sub-section">
-            <h4>
-              Bachelor's degree(BIS), Multimedia
-              <div className="sub-heading">Jan 2009 - Dec 2011</div>{" "}
+              BSc (Hons) Computer Science, BIS Multimedia
+              <div className="sub-heading">2012</div>{" "}
               <div className="sub-heading">
                 University of Pretoria | Pretoria, South Africa
               </div>
@@ -179,21 +181,27 @@ function App() {
           <h2>Skills</h2>
           <h3>Languages</h3>
           <p>
-            Ruby | JavaScript | Terraform | Java | SQL | CSS3 | HTML5 | PHP |
-            Typescript
+            Ruby | JavaScript | TypeScript | Python | Java
           </p>
-          <h3>Technologies</h3>
+          <h3>Frameworks &amp; Libraries</h3>
           <p>
-            React | Rails | NodeJS | Angular | GIT | AWS | Java Swing |
-            PostgreSQL | Terragrunt
+            Ruby on Rails | React | GraphQL | Dagster
           </p>
-          <h3>Personal</h3>
+          <h3>Infrastructure &amp; DevOps</h3>
           <p>
-            Passion for DevOps, CICD and Developer Experience | UI Design |
-            Problem resolution and structured logical thinking abilities |
-            Excellent time management and organizational skills | Good
-            communication skills | Strong team player | Agile/Scrum development
-            methodologies
+            AWS | Terraform | CI/CD | Docker | IaaS | PaaS
+          </p>
+          <h3>Databases</h3>
+          <p>
+            PostgreSQL | Snowflake | Oracle | MySQL
+          </p>
+          <h3>Developer Tools</h3>
+          <p>
+            Git | JSON configuration | automated testing
+          </p>
+          <h3>Domain Expertise</h3>
+          <p>
+            Internal tooling | platform engineering | system performance optimization | incident management
           </p>
         </div>
         <div id="contact" className="section">
